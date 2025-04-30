@@ -1,0 +1,17 @@
+[project]
+name = "apivassa"
+version = "0.1.0"
+description = "Criei uma api (API Vassa) no Replit.com, com 2 Endpoints, utilizando o Decorator e uma Base .csv (despesas)."
+authors = [
+    {name = "Marcelo Vasselai",email = "mvasselai@gmail.com"}
+]
+license = {text = "1.0"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
